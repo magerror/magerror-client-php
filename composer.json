@@ -1,0 +1,17 @@
+{
+    "name": "magerror/magerror-client-php",
+    "description": "Get all your Magento reports in one place",
+    "keywords": ["magento","magento2","reports"],
+    "homepage": "https://github.com/magerror/magerror-client-php",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Magerror",
+            "email": "heelo@magerror.com",
+            "homepage": "https://www.magerror.com/"
+        }
+    ],
+    "require": {
+        "php": "^5.3.0"
+    }
+}
