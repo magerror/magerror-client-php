@@ -1,6 +1,7 @@
 <?php
 /**
- * @copyright  2016 Magerror (https://www.magerror.com/)
+ * Copyright © 2016 Magerror (https://www.magerror.com/)
+ * See LICENSE bundled with this file for license details.
  */
 
 class Magerror
