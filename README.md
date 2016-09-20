@@ -1,1 +1,1 @@
-# client-php
+# Magerror PHP Client
