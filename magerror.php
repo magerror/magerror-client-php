@@ -31,7 +31,7 @@ class Magerror
     /**
      * @var int
      */
-    private $quantity = 10;
+    private $quantity = 50;
 
     /**
      * Reports directory
@@ -134,7 +134,6 @@ class Magerror
         curl_close($curl);
         return $response;
     }
-
 
 }
 
