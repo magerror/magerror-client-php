@@ -12,7 +12,7 @@ class Magerror
      *
      * @var string
      */
-    private $version = '0.1.0';
+    private $version = '0.2.0';
 
     /**
      * API token
@@ -138,10 +138,12 @@ class Magerror
 
 }
 
+$configuration = parse_ini_file("configuration.ini");
+
 //Your API Token string
-$token = '';
+$token = $configuration['token'];
 //Full path to your magento reports directory
-$directory = '';
+$directory = $configuration['directory'];
 
 
 $client = new Magerror($token, $directory);
