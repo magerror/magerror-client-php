@@ -3,6 +3,7 @@
     "description": "Get all your Magento reports in one place",
     "keywords": ["magento","magento2","reports"],
     "homepage": "https://github.com/magerror/magerror-client-php",
+    "version": "0.2.0",
     "license": "GPL-3.0",
     "authors": [
         {
