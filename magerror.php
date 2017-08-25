@@ -12,7 +12,7 @@ class Magerror
      *
      * @var string
      */
-    private $version = '0.2.0';
+    private $version = '0.3.0';
 
     /**
      * API token
@@ -96,8 +96,8 @@ class Magerror
     {
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_HTTPHEADER, array('token: ' . $this->token, 'Accept: application/json', 'Content-Type: application/json'));
-        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER,0);
-        curl_setopt($curl, CURLOPT_SSL_VERIFYHOST,0);
+        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER,true);
+        curl_setopt($curl, CURLOPT_SSL_VERIFYHOST,true);
         curl_setopt($curl, CURLOPT_TIMEOUT, 10);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER,true);
         curl_setopt($curl, CURLINFO_HTTP_CODE, true);
@@ -120,8 +120,8 @@ class Magerror
     {
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_HTTPHEADER, array('token: ' . $this->token, 'Accept: application/json', 'Content-Type: application/json'));
-        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER,0);
-        curl_setopt($curl, CURLOPT_SSL_VERIFYHOST,0);
+        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER,true);
+        curl_setopt($curl, CURLOPT_SSL_VERIFYHOST,true);
         curl_setopt($curl, CURLOPT_TIMEOUT, 10);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER,true);
         curl_setopt($curl, CURLINFO_HTTP_CODE, true);

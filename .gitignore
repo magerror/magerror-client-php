@@ -1,3 +1,6 @@
 ### IDEs
 ## PHPStorm
 /.idea/
+
+## Configuration
+/configuration.ini
